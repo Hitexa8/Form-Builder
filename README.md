@@ -8,7 +8,7 @@ A modern **MERN stack** form builder with drag-and-drop functionality, real-time
 
 | Component | URL |
 |-----------|-----|
-| **Frontend** | http://form-builder-five-roan.vercel.app/ |
+| **Frontend** | https://form-builder-five-roan.vercel.app/ |
 | **Backend API** | https://form-builder-backend-gt5t.onrender.com |
 | **Health Check** | https://form-builder-backend-gt5t.onrender.com/api/health |
 
