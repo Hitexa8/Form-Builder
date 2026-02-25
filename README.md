@@ -24,9 +24,10 @@ NODE_ENV=development
 CORS_ORIGIN=http://localhost:3000
 ```
 
-### Frontend (Automatic - No setup needed!)
-- **Local dev** (`.env.development`): `VITE_API_URL=http://localhost:5000/api`
-- **Production** (`.env.production`): `VITE_API_URL=https://form-builder-backend-gt5t.onrender.com/api`
+### Frontend (`.env`)
+```
+VITE_API_URL=http://localhost:5000/api
+```
 
 ---
 
