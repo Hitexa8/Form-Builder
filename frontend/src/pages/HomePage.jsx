@@ -46,12 +46,22 @@ const HomePage = () => {
     <div className="bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 py-16 min-h-[calc(100vh-200px)]">
       <div className="max-w-7xl mx-auto px-4">
         {/* Page Header */}
-        <div className="mb-16 text-center md:text-left">
-          <div className="inline-block mb-4">
-            <span className="bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-bold uppercase tracking-wider">Your Forms</span>
+        <div className="mb-16">
+          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+            <div>
+              <div className="inline-block mb-4">
+                <span className="bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-bold uppercase tracking-wider">Your Forms</span>
+              </div>
+              <h2 className="text-5xl font-black text-gray-900 mb-3 bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">My Forms</h2>
+              <p className="text-gray-600 text-lg">Create, manage, and share your forms with ease</p>
+            </div>
+            <button
+              onClick={() => navigate('/form/create')}
+              className="md:hidden bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-8 py-3 rounded-xl hover:shadow-xl font-bold transition-all duration-300 shadow-lg hover:scale-105 transform text-lg w-full md:w-auto"
+            >
+              ✨ Create Form
+            </button>
           </div>
-          <h2 className="text-5xl font-black text-gray-900 mb-3 bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">My Forms</h2>
-          <p className="text-gray-600 text-lg">Create, manage, and share your forms with ease</p>
         </div>
 
         {/* Error Message */}
