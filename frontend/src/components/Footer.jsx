@@ -15,27 +15,6 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Features */}
-          <div>
-            <h3 className="text-white font-bold text-lg mb-4">Features</h3>
-            <ul className="text-sm space-y-2">
-              <li className="hover:text-blue-400 transition-colors duration-200">Easy Form Creation</li>
-              <li className="hover:text-blue-400 transition-colors duration-200">Customizable Inputs</li>
-              <li className="hover:text-blue-400 transition-colors duration-200">Instant Save</li>
-              <li className="hover:text-blue-400 transition-colors duration-200">Form Validation</li>
-            </ul>
-          </div>
-
-          {/* Support */}
-          <div>
-            <h3 className="text-white font-bold text-lg mb-4">Support</h3>
-            <ul className="text-sm space-y-2">
-              <li className="hover:text-blue-400 transition-colors duration-200">Email: support@formbuilder.com</li>
-              <li className="hover:text-blue-400 transition-colors duration-200">Chat Support</li>
-              <li className="hover:text-blue-400 transition-colors duration-200">Documentation</li>
-              <li className="hover:text-blue-400 transition-colors duration-200">Report Bug</li>
-            </ul>
-          </div>
         </div>
 
         {/* Divider */}
